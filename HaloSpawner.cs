@@ -38,7 +38,7 @@ public class HaloSpawner : MonoBehaviour
 
     void Start()
     {
-        // Calculate the spawn interval based on BPM
+        // Calculate the spawn interval based on BPM 
         float spawnInterval = 60.0f / bpm;
         nextSpawnTime = spawnInterval;
         lastSpawnTime = -minSpawnInterval; // Ensure the first halo can spawn immediately
