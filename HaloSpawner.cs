@@ -1,3 +1,5 @@
+
+
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
@@ -166,7 +168,7 @@ public class HaloSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(1.0f); // Adjust the interval as needed
+            yield return new WaitForSeconds(1.0f); // Adjust the interval as needed but nottoo much
             distanceBetweenHalos += distanceIncreaseRate;
         }
     }
