@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class LifeManager : MonoBehaviour
 {
-    public int lives = 3;
+    public int lives = 3; //amount of lives
     public Image heart1;
     public Image heart2;
     public Image heart3;
