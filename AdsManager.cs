@@ -74,7 +74,7 @@ public class AdsManager : MonoBehaviour, IUnityAdsInitializationListener, IUnity
         // Implement logic for rewarding the player, such as granting an extra life
         if (showCompletionState == UnityAdsShowCompletionState.COMPLETED)
         {
-            // Reward the player
+            // Reward the player:)
             GameManager.Instance.OnAdWatched();
         }
     }
